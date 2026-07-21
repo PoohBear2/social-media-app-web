@@ -5,8 +5,8 @@ export default function PrivacyPolicy() {
 			<p>Last updated: July 21, 2026</p>
 			<h2>What we collect</h2>
 			<p>
-				We collect your email address, video recordings you create in teh ap, and social media
-				account tokens you connect
+				We collect your email address, video recordings you create in the app, and social media
+				account tokens you connect.
 			</p>
 			<h2>How we use it</h2>
 			<p>
@@ -17,6 +17,11 @@ export default function PrivacyPolicy() {
 			<p>
 				Your data is stored in Supabase hosted on AWS. Video files are stored in cloud storage and
 				deleted when you delete your account.
+			</p>
+			<h2>Account deletion</h2>
+			<p>
+				You can delete your account at any time from the app Settings. This permanently removes all
+				your data including recordings, videos, and connected account tokens
 			</p>
 			<h2>Contact</h2>
 			<p>Email: jzhou3379@gmail.com</p>
