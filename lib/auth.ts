@@ -4,7 +4,7 @@ import { NextRequest } from 'next/server';
 const supabaseUrl = process.env.SUPABASE_URL!;
 const supabaseServiceRoleKey = process.env.SUPABSE_SERVICE_ROLE_KEY!;
 
-export async function getCliams(request: NextRequest): Promise<{ userId: string } | null> {
+export async function getClaims(request: NextRequest): Promise<{ userId: string } | null> {
 	const token = request.headers.get('authorization');
 
 	if (!token) {
